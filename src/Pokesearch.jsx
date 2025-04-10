@@ -41,7 +41,7 @@ function Pokesearch() {
         style={{ height: 60 }}
       >
         <img
-          src="../public/pokeball.svg"
+          src="/public/pokeball.svg"
           alt="pokeball"
           style={{ height: "50px", width: "50px" }}
         />
