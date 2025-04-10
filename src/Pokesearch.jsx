@@ -40,11 +40,7 @@ function Pokesearch() {
         className="bg-danger container-fluid d-flex justify-content-center align-items-center text-light py-2"
         style={{ height: 60 }}
       >
-        <img
-          src="../pokeball.svg"
-          alt="pokeball"
-          style={{ height: "50px", width: "50px" }}
-        />
+
         <h1 className="text-light mx-2">Pokedex</h1>
         <Autocomplete onSelectPokemon={handlePokemonSelect} />
       </div>
